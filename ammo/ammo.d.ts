@@ -41,6 +41,7 @@ declare module Ammo {
         constructor();
         constructor(x: number, y: number, z: number, w: number);
         w(): number;
+        setValue(x: number, y: number, z: number): void;
         setValue(x: number, y: number, z: number, w: number): void;
     }
     class btQuadWord {
